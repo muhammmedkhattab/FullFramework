@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regression Suite" parallel="false">
+	<parameter name="browser" value="chrome-headless"></parameter>
+	<test name="Regression Test Suite" preserve-order="false">
+		<classes>
+			<class name="testcases.ChangeLanguageTest" />
+			<class name="testcases.UserFillContactForumTest" />
+			<class name="testcases.UserSubscribeNewsletterTest" />
+			<class name="testcases.ValidateLinksTest" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,9 @@
+testcases\UserSubscribeNewsletterTest.class
+testcases\ChangeLanguageTest.class
+utilities\Helper.class
+testcases\GridBase.class
+testcases\ValidateLinksTest.class
+testcases\TestBase.class
+testcases\UserFillContactForumTest.class
+testcases\UserNavigateToMenuTest.class
+testcases\UserSearchTest.class
