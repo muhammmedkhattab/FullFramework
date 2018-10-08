@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <parameter name="browser" value="chrome"/>
+  <test thread-count="1" name="Regression Test 0(failed)" parallel="classes">
+    <classes>
+      <class name="testcases.UserFillContactForumTest">
+        <methods>
+          <include name="UserFillForumSuccessfully"/>
+          <include name="startDriver"/>
+          <include name="screenShotOnFailure"/>
+          <include name="exitDriver"/>
+        </methods>
+      </class> <!-- testcases.UserFillContactForumTest -->
+    </classes>
+  </test> <!-- Regression Test 0(failed) -->
+  <test thread-count="1" name="Regression Test 1(failed)" parallel="classes">
+    <classes>
+      <class name="testcases.UserNavigateToMenuTest">
+        <methods>
+          <include name="startDriver"/>
+          <include name="UserNavigateSuccessfully"/>
+          <include name="screenShotOnFailure"/>
+          <include name="exitDriver"/>
+        </methods>
+      </class> <!-- testcases.UserNavigateToMenuTest -->
+    </classes>
+  </test> <!-- Regression Test 1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

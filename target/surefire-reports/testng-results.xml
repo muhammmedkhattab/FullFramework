@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="6" total="10" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Regression Suite" duration-ms="176922" started-at="2018-09-25T11:31:48Z" finished-at="2018-09-25T11:34:45Z">
+  <suite name="Regression Suite" duration-ms="290923" started-at="2018-09-26T07:48:50Z" finished-at="2018-09-26T07:53:41Z">
     <groups>
     </groups>
-    <test name="Regression Test Suite" duration-ms="176922" started-at="2018-09-25T11:31:48Z" finished-at="2018-09-25T11:34:45Z">
+    <test name="Regression Test Suite" duration-ms="290923" started-at="2018-09-26T07:48:50Z" finished-at="2018-09-26T07:53:41Z">
       <class name="testcases.UserFillContactForumTest">
-        <test-method status="FAIL" signature="UserFillForumSuccessfully()[pri:5, instance:testcases.UserFillContactForumTest@183c0a68]" name="UserFillForumSuccessfully" duration-ms="120701" started-at="2018-09-25T11:32:21Z" finished-at="2018-09-25T11:34:21Z">
+        <test-method status="FAIL" signature="UserFillForumSuccessfully()[pri:5, instance:testcases.UserFillContactForumTest@183c0a68]" name="UserFillForumSuccessfully" duration-ms="120633" started-at="2018-09-26T07:49:20Z" finished-at="2018-09-26T07:51:20Z">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
               <![CDATA[no such element: Unable to locate element: {"method":"link text","selector":"Contact"}
@@ -16,10 +16,10 @@
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'E0363753', ip: '10.236.2.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'E0363753', ip: '145.230.164.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\khattabm\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
-Session ID: de4a8c49c2992f385315376cd87e98a6
+Session ID: 4214a72079ef69f701c9cd4ee5066294
 *** Element info: {Using=link text, value=Contact}]]>
             </message>
             <full-stacktrace>
@@ -29,10 +29,10 @@ Session ID: de4a8c49c2992f385315376cd87e98a6
 Command duration or timeout: 0 milliseconds
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.13.0', revision: '2f0d292', time: '2018-06-25T15:24:21.231Z'
-System info: host: 'E0363753', ip: '10.236.2.222', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
+System info: host: 'E0363753', ip: '145.230.164.207', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_171'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
 Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\khattabm\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
-Session ID: de4a8c49c2992f385315376cd87e98a6
+Session ID: 4214a72079ef69f701c9cd4ee5066294
 *** Element info: {Using=link text, value=Contact}
 at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
@@ -87,7 +87,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserFillForumSuccessfully -->
-        <test-method status="PASS" signature="screenShotOnFailure(org.testng.ITestResult)[pri:0, instance:testcases.UserFillContactForumTest@183c0a68]" name="screenShotOnFailure" is-config="true" duration-ms="1675" started-at="2018-09-25T11:34:21Z" finished-at="2018-09-25T11:34:23Z">
+        <test-method status="PASS" signature="screenShotOnFailure(org.testng.ITestResult)[pri:0, instance:testcases.UserFillContactForumTest@183c0a68]" name="screenShotOnFailure" is-config="true" duration-ms="1631" started-at="2018-09-26T07:51:21Z" finished-at="2018-09-26T07:51:22Z">
           <params>
             <param index="0">
               <value>
@@ -100,11 +100,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
         </test-method> <!-- screenShotOnFailure -->
       </class> <!-- testcases.UserFillContactForumTest -->
       <class name="testcases.UserSubscribeNewsletterTest">
-        <test-method status="PASS" signature="UserSearchSuccessfully()[pri:4, instance:testcases.UserSubscribeNewsletterTest@2b497998]" name="UserSearchSuccessfully" duration-ms="1475" started-at="2018-09-25T11:32:17Z" finished-at="2018-09-25T11:32:19Z">
+        <test-method status="PASS" signature="UserSearchSuccessfully()[pri:4, instance:testcases.UserSubscribeNewsletterTest@2b497998]" name="UserSearchSuccessfully" duration-ms="1767" started-at="2018-09-26T07:49:16Z" finished-at="2018-09-26T07:49:18Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- UserSearchSuccessfully -->
-        <test-method status="PASS" signature="screenShotOnFailure(org.testng.ITestResult)[pri:0, instance:testcases.UserSubscribeNewsletterTest@2b497998]" name="screenShotOnFailure" is-config="true" duration-ms="1650" started-at="2018-09-25T11:32:19Z" finished-at="2018-09-25T11:32:21Z">
+        <test-method status="PASS" signature="screenShotOnFailure(org.testng.ITestResult)[pri:0, instance:testcases.UserSubscribeNewsletterTest@2b497998]" name="screenShotOnFailure" is-config="true" duration-ms="1706" started-at="2018-09-26T07:49:18Z" finished-at="2018-09-26T07:49:20Z">
           <params>
             <param index="0">
               <value>
@@ -117,11 +117,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
         </test-method> <!-- screenShotOnFailure -->
       </class> <!-- testcases.UserSubscribeNewsletterTest -->
       <class name="testcases.ValidateLinksTest">
-        <test-method status="PASS" signature="validateAllLink()[pri:6, instance:testcases.ValidateLinksTest@79adc343]" name="validateAllLink" duration-ms="19930" started-at="2018-09-25T11:34:23Z" finished-at="2018-09-25T11:34:43Z">
+        <test-method status="PASS" signature="validateAllLink()[pri:6, instance:testcases.ValidateLinksTest@79adc343]" name="validateAllLink" duration-ms="136124" started-at="2018-09-26T07:51:22Z" finished-at="2018-09-26T07:53:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateAllLink -->
-        <test-method status="PASS" signature="screenShotOnFailure(org.testng.ITestResult)[pri:0, instance:testcases.ValidateLinksTest@79adc343]" name="screenShotOnFailure" is-config="true" duration-ms="1693" started-at="2018-09-25T11:34:43Z" finished-at="2018-09-25T11:34:45Z">
+        <test-method status="PASS" signature="screenShotOnFailure(org.testng.ITestResult)[pri:0, instance:testcases.ValidateLinksTest@79adc343]" name="screenShotOnFailure" is-config="true" duration-ms="1552" started-at="2018-09-26T07:53:38Z" finished-at="2018-09-26T07:53:40Z">
           <params>
             <param index="0">
               <value>
@@ -134,7 +134,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
         </test-method> <!-- screenShotOnFailure -->
       </class> <!-- testcases.ValidateLinksTest -->
       <class name="testcases.ChangeLanguageTest">
-        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:testcases.ChangeLanguageTest@568aea48]" name="startDriver" is-config="true" duration-ms="23550" started-at="2018-09-25T11:31:48Z" finished-at="2018-09-25T11:32:12Z">
+        <test-method status="PASS" signature="startDriver(java.lang.String)[pri:0, instance:testcases.ChangeLanguageTest@568aea48]" name="startDriver" is-config="true" duration-ms="21400" started-at="2018-09-26T07:48:50Z" finished-at="2018-09-26T07:49:11Z">
           <params>
             <param index="0">
               <value>
@@ -145,11 +145,11 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startDriver -->
-        <test-method status="PASS" signature="ChangeLanguage()[pri:1, instance:testcases.ChangeLanguageTest@568aea48]" name="ChangeLanguage" duration-ms="3388" started-at="2018-09-25T11:32:12Z" finished-at="2018-09-25T11:32:15Z">
+        <test-method status="PASS" signature="ChangeLanguage()[pri:1, instance:testcases.ChangeLanguageTest@568aea48]" name="ChangeLanguage" duration-ms="3152" started-at="2018-09-26T07:49:12Z" finished-at="2018-09-26T07:49:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- ChangeLanguage -->
-        <test-method status="PASS" signature="screenShotOnFailure(org.testng.ITestResult)[pri:0, instance:testcases.ChangeLanguageTest@568aea48]" name="screenShotOnFailure" is-config="true" duration-ms="2205" started-at="2018-09-25T11:32:15Z" finished-at="2018-09-25T11:32:17Z">
+        <test-method status="PASS" signature="screenShotOnFailure(org.testng.ITestResult)[pri:0, instance:testcases.ChangeLanguageTest@568aea48]" name="screenShotOnFailure" is-config="true" duration-ms="1680" started-at="2018-09-26T07:49:15Z" finished-at="2018-09-26T07:49:16Z">
           <params>
             <param index="0">
               <value>
@@ -160,7 +160,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:417)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- screenShotOnFailure -->
-        <test-method status="PASS" signature="exitDriver()[pri:0, instance:testcases.ChangeLanguageTest@568aea48]" name="exitDriver" is-config="true" duration-ms="604" started-at="2018-09-25T11:34:45Z" finished-at="2018-09-25T11:34:45Z">
+        <test-method status="PASS" signature="exitDriver()[pri:0, instance:testcases.ChangeLanguageTest@568aea48]" name="exitDriver" is-config="true" duration-ms="782" started-at="2018-09-26T07:53:40Z" finished-at="2018-09-26T07:53:41Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- exitDriver -->

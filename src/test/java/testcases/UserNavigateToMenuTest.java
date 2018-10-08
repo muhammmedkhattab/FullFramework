@@ -14,10 +14,10 @@ public class UserNavigateToMenuTest extends GridBase {
 	@Test(priority = 3)
 	public void UserNavigateSuccessfully() throws InterruptedException {
 
-		homeObject = new HomePage(getDriver());
-		homeObject.navigateSideMenu(getDriver(), sideMenuBtnLocator, menuItemLocator);
+		homeObject = new HomePage(driverGrid);
+		homeObject.navigateSideMenu(driverGrid, sideMenuBtnLocator, menuItemLocator);
 		Thread.sleep(5000);
-		String url = getDriver().getCurrentUrl();
+		String url = driverGrid.getCurrentUrl();
 		Assert.assertTrue(url.equalsIgnoreCase(WestPageURL));
 
 	}

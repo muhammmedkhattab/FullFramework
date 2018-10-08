@@ -19,12 +19,12 @@ public class UserSearchTest extends GridBase  {
 	@Test(priority = 2)
 	public void UserSearchSuccessfully() throws InterruptedException {
 
-		homeObject = new HomePage(getDriver());
-		searchObject = new SearchPage(getDriver());
+		homeObject = new HomePage(driverGrid);
+		searchObject = new SearchPage(driverGrid);
 
-		homeObject.openSearch(getDriver(),SearchObjectByCSS);
+		homeObject.openSearch(driverGrid,SearchObjectByCSS);
 			
-		searchObject.searchForValue(getDriver(),SearchTextLocator,searchTXT);
+		searchObject.searchForValue(driverGrid,SearchTextLocator,searchTXT);
 
 	}
 }
