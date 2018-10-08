@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [ParallelSuite]" parallel="tests">
+  <test thread-count="2" name="Regression Test 00(failed)" parallel="tests">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="testcases.UserSearchTest">
+        <methods>
+          <include name="startGrid"/>
+          <include name="screenShotOnFailure"/>
+          <include name="exitDriver"/>
+          <include name="UserSearchSuccessfully"/>
+        </methods>
+      </class> <!-- testcases.UserSearchTest -->
+    </classes>
+  </test> <!-- Regression Test 00(failed) -->
+  <test thread-count="2" name="Regression Test 01(failed)" parallel="tests">
+    <parameter name="browserName" value="firefox"/>
+    <classes>
+      <class name="testcases.UserSearchTest">
+        <methods>
+          <include name="startGrid"/>
+          <include name="screenShotOnFailure"/>
+          <include name="exitDriver"/>
+          <include name="UserSearchSuccessfully"/>
+        </methods>
+      </class> <!-- testcases.UserSearchTest -->
+    </classes>
+  </test> <!-- Regression Test 01(failed) -->
+</suite> <!-- Failed suite [ParallelSuite] -->

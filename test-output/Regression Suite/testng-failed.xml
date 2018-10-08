@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <parameter name="browser" value="chrome-headless"/>
+  <test thread-count="5" name="Regression Test Suite(failed)">
+    <classes>
+      <class name="testcases.UserFillContactForumTest">
+        <methods>
+          <include name="UserFillForumSuccessfully"/>
+          <include name="startDriver"/>
+          <include name="screenShotOnFailure"/>
+          <include name="exitDriver"/>
+        </methods>
+      </class> <!-- testcases.UserFillContactForumTest -->
+    </classes>
+  </test> <!-- Regression Test Suite(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->

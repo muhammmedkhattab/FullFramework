@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Regg" annotations="JDK" parallel="false">
+	<parameter name="browser" value="chrome"></parameter>
+
+	<test name="Regression Test 5">
+		<classes>
+			
+			<class name="testcases.ChangeLanguageTest" />
+		</classes>
+	</test>
+</suite>
