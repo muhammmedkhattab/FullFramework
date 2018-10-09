@@ -64,7 +64,7 @@
 		<profile>
 			<id>HeadlessSuite</id>
 			<activation>
-				<activeByDefault>true</activeByDefault>
+				<activeByDefault>false</activeByDefault>
 				<property>
 					<name>environment</name>
 					<value>HeadlessSuite</value>
