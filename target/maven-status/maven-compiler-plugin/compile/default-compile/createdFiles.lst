@@ -1,5 +1,6 @@
 data\DataDriven.class
 pom\ContactPage.class
 pom\SearchPage.class
+data\LoadProperties.class
 pom\HomePage.class
 pom\PageBase.class
