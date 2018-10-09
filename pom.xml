@@ -87,5 +87,18 @@
 				<testNGSuite>suite.xml</testNGSuite>
 			</properties>
 		</profile>
+		<profile>
+			<id>parallel</id>
+			<activation>
+				<activeByDefault>false</activeByDefault>
+				<property>
+					<name>environment</name>
+					<value>parallel</value>
+				</property>
+			</activation>
+			<properties>
+				<testNGSuite>parallel.xml</testNGSuite>
+			</properties>
+		</profile>
 	</profiles>
 </project>
