@@ -1,3 +1,3 @@
 @echo off
-cd C:\Users\khattabm\eclipse-workspace\FrameWork
+cd C:\Users\khattabm\git\FullFramework
 mvn clean test -PsuiteParallel.xml
