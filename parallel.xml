@@ -7,4 +7,10 @@
 			<class name="testcases.UserSearchTest" />
 		</classes>
 	</test>
+	<test name="Regression Test 01">
+		<parameter name="browserName" value="firefox"></parameter>
+		<classes>
+			<class name="testcases.UserSearchTest" />
+		</classes>
+	</test>
 </suite>
