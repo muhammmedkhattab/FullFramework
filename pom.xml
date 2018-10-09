@@ -77,7 +77,7 @@
 		<profile>
 			<id>suite</id>
 			<activation>
-				<activeByDefault>true</activeByDefault>
+				<activeByDefault>false</activeByDefault>
 				<property>
 					<name>environment</name>
 					<value>suite</value>
