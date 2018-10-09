@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ParallelSuite" annotations="JDK" parallel="tests"
+	thread-count="2">
+	<test name="Regression Test 00">
+		<parameter name="browserName" value="firefox"></parameter>
+		<classes>
+			<class name="testcases.UserSearchTest" />
+		</classes>
+	</test>
+</suite>
