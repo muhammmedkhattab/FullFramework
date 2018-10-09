@@ -1,3 +1,4 @@
+testcases\Testmain.class
 testcases\UserSubscribeNewsletterTest.class
 testcases\ChangeLanguageTest.class
 utilities\Helper.class
