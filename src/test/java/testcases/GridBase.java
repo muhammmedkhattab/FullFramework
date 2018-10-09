@@ -52,7 +52,7 @@ public class GridBase {
 		}
 		//sauceURL
 		//localHost
-		driverGrid = new RemoteWebDriver(new URL(localHost), caps);
+		driverGrid = new RemoteWebDriver(new URL(sauceURL), caps);
 		//driverGrid.set(new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"), caps));
 
 		driverGrid.navigate().to(homePageURL);
